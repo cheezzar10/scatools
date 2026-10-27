@@ -1,0 +1,17 @@
+* module initialization
+
+$ go mod init github.com/cheezzar10/scatools/scalibdemo
+
+* getting dependencies
+
+$ go get github.com/google/osv-scalibr@v0.5.2
+$ go mod tidy
+
+* source code formatting
+
+$ go fmt
+$ golines -w .
+
+* running test in verbose mode to see 't.Log' output
+
+$ go test -v ./imagescan
